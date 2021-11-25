@@ -686,7 +686,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
   .scroll-up {
     position: fixed;
-    right: 1%;
+    right: 0.6%;
     bottom: 9.25%;
     cursor: pointer;
    
