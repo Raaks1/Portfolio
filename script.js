@@ -16,13 +16,16 @@ toggle.addEventListener('change',()=>{
 
 
 const myBars = document.querySelectorAll('.skill__inner-bar');
+const myIcon = document.querySelectorAll('#image1');
 
 observer = new IntersectionObserver(entries => {
   entries.forEach(entry => {
     if (entry.intersectionRatio > 0) {
       entry.target.classList.add('show');
+      entry.target.classList.add('visable');
     } else {
       entry.target.classList.remove('show');
+      entry.target.classList.remove('visable');
     }
   });
 });
@@ -30,9 +33,14 @@ observer = new IntersectionObserver(entries => {
 myBars.forEach(bar => {
   observer.observe(bar);
   console.log(bar);
+  myIcon.forEach(icon => {
+    observer.observe(icon);
+    console.log(icon);
+  });
+  
 });
 
-const myIcon = document.querySelectorAll('#image1');
+/*const myIcon = document.querySelectorAll('#image1');
 
 observer = new IntersectionObserver(entries => {
   entries.forEach(entry => {
@@ -47,4 +55,4 @@ observer = new IntersectionObserver(entries => {
 myIcon.forEach(icon => {
   observer.observe(icon);
   console.log(icon);
-});
+});*/
