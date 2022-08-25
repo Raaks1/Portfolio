@@ -826,24 +826,42 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   opacity: 1;;
 }
 .skill__inner-bar--50 {
-    width: 50%;
+    width: 60%;
     background: #F8A518;
 }
 .skill__inner-bar--40 {
-    width: 40%;
+    width: 60%;
     background: #18A6F8;
 }
 .skill__inner-bar--25 {
-    width: 25%;
+    width: 40%;
     background: #F8DD18;
 }
 .skill__inner-bar--10 {
-    width: 10%;
+    width: 50%;
     background: #8718F8;
 }
 .skill__inner-bar--1 {
-    width: 1%;
+    width: 60%;
     background: #81c2e7;
+}
+
+.skill__inner-bar--60 {
+  width: 50%;
+  background: #ffffff;
+}
+.skill__inner-bar--15 {
+  width: 15%;
+  background: #ea0909;
+}
+.skill__inner-bar--14 {
+  width: 20%;
+  background: #048222;
+  
+}
+.skill__inner-bar--13 {
+  width: 25%;
+  background: #f60df2;
 }
 
 @keyframes fillBar {
